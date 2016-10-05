@@ -32,3 +32,6 @@ for i=1:length(xa),
      end
  end
  hold off;
+ 
+ % Plotting the Histogram
+ figure, hist(xa, 100), hold on;
